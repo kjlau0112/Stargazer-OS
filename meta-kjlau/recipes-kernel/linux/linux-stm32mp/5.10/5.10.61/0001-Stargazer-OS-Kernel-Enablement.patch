@@ -1,0 +1,28 @@
+From 95e31253117d6dcb2cb02cef1f0621942fd40ea8 Mon Sep 17 00:00:00 2001
+From: kjlau0112 <lkarnjye@gmail.com>
+Date: Sun, 13 Mar 2022 10:38:21 +0800
+Subject: [PATCH] [Stargazer OS] Kernel Enablement
+
+Missed C programming, but tired of program userspace
+want some thing fancy in resume and porfolio.
+
+Signed-off-by: kjlau0112 <lkarnjye@gmail.com>
+---
+ init/main.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/init/main.c b/init/main.c
+index dd26a42e80a8..500915f88315 100644
+--- a/init/main.c
++++ b/init/main.c
+@@ -878,6 +878,7 @@ asmlinkage __visible void __init __no_sanitize_address start_kernel(void)
+ 	build_all_zonelists(NULL);
+ 	page_alloc_init();
+ 
++	pr_notice("Stargazer OS Kernel development enablement\n");
+ 	pr_notice("Kernel command line: %s\n", saved_command_line);
+ 	/* parameters may set static keys */
+ 	jump_label_init();
+-- 
+2.17.1
+

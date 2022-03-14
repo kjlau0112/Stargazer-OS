@@ -878,7 +878,7 @@ asmlinkage __visible void __init __no_sanitize_address start_kernel(void)
 	build_all_zonelists(NULL);
 	page_alloc_init();
 
-	pr_notice("Stargazer OS kernel development enablement\n");
+	pr_notice("Stargazer OS Kernel development enablement\n");
 	pr_notice("Kernel command line: %s\n", saved_command_line);
 	/* parameters may set static keys */
 	jump_label_init();

@@ -1,0 +1,5 @@
+build-mp1/tmp*
+build-mp1/bitbake-cookerdaemon.log
+build-mp1/cache/
+build-mp1/downloads
+build-mp1/sstate-cache/

@@ -1,0 +1,1 @@
+tmp/deploy/images/stm32mp1/scripts/create_sdcard_from_flashlayout.sh tmp/deploy/images/stm32mp1/flashlayout_core-image-sato/extensible/FlashLayout_sdcard_stm32mp157f-dk2-extensible.tsv
